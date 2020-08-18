@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "strict" : true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "removeComments": false,
+        "lib": [ "esnext", "dom" ],
+        "typeRoots": [
+            "./node_modules/@types",
+            "./node_modules/vuetify/types"
+        ],
+        "types": [ "vuetify" ]
+    }
+}
